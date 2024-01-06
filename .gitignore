@@ -8,6 +8,9 @@
 *.so
 *.dylib
 
+# Ignore all 'build' folders and their contents regardless where they are in the directory tree
+**/build/*
+
 # Test binary, built with `go test -c`
 *.test
 
